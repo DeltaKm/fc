@@ -1591,9 +1591,6 @@ function MyForm() {
           <button onClick={() => Router.push('/Cremazione')} className='p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]'>
             Cremazione
           </button>
-          <button onClick={() => Router.push('/Inumazione')} className='p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]'>
-            Inumazione
-          </button>
         </div>
       </div>
 
