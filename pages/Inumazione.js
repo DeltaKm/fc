@@ -1582,17 +1582,17 @@ function MyForm() {
 
     <>
       <div className="flex flex-col">
-        <h1 className="flex justify-center mt-[-1px] font-bold font-mono my-3 bg-purple-900 text-center text-white">Dichiarazione di morte servizio funebre con cremazione </h1>
+        <h1 className="flex justify-center mt-[-1px] font-bold font-mono my-3 bg-purple-900 text-center text-white">Dichiarazione di morte servizio funebre con inumazione </h1>
         {/* button */}
         <div className="flex justify-center space-x-2">
           <button onClick={() => Router.push('/')} className=' p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]'>
             Standard
           </button>
+          <button onClick={() => Router.push('/Inumazione')} className='p-3 mt-2 bg-black text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]'>
+            Inumazione
+          </button>
           <button onClick={() => Router.push('/Cremazione')} className='p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]'>
             Cremazione
-          </button>
-          <button onClick={() => Router.push('/Inumazione')} className='p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]'>
-            Inumazione
           </button>
         </div>
       </div>

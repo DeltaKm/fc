@@ -2082,17 +2082,17 @@ function MyForm() {
         </h1>
         {/* button */}
         <div className="flex justify-center space-x-2">
-          <button className=" p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
+          <button className=" p-3 mt-2 bg-black text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
             Standard
           </button>
-          <Link href={"/Cremazione"}>
-            <button className="p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
-              Cremazione
-            </button>
-          </Link>
           <Link href={"/Inumazione"}>
             <button className="p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
               Inumazione
+            </button>
+          </Link>
+          <Link href={"/Cremazione"}>
+            <button className="p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
+              Cremazione
             </button>
           </Link>
         </div>
