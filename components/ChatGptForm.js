@@ -2081,17 +2081,17 @@ function MyForm() {
           Dichiarazione di morte servizio funebre standard{" "}
         </h1>
         {/* button */}
-        <div className="flex justify-center space-x-2">
-          <button className=" p-3 mt-2 bg-black text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
+        <div className="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-2 px-4">
+          <button className="w-full sm:w-auto px-3 py-2 sm:p-3 mt-2 bg-black text-sm sm:text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
             Standard
           </button>
           <Link href={"/Inumazione"}>
-            <button className="p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
+            <button className="w-full sm:w-auto px-3 py-2 sm:p-3 mt-2 bg-purple-900 text-sm sm:text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
               Inumazione
             </button>
           </Link>
           <Link href={"/Cremazione"}>
-            <button className="p-3 mt-2 bg-purple-900 text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
+            <button className="w-full sm:w-auto px-3 py-2 sm:p-3 mt-2 bg-purple-900 text-sm sm:text-lg text-white rounded-lg outline-none border-none font-bold tracking-wide transition-all hover:bg-[#252525]">
               Cremazione
             </button>
           </Link>
