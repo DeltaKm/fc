@@ -985,11 +985,11 @@ function MyForm() {
     doc.setFont(font, "normal")
     doc.text("Tipo seppellimento:", 10, yLine4 = yLine4 + baseLineHeight)//variabiele
     doc.setFont(font, "bold");
-    doc.text("TUMULAZIONE", 45, yLine4)//variabile
+    doc.text("CREMAZIONE", 45, yLine4)//variabile
     doc.setFont(font, "normal")
     doc.text("Tipo di Feretro:", 75, yLine4)//variabile
     doc.setFont(font, "bold");
-    doc.text("Cassa di legno e cassa di zinco", 101, yLine4)//variabile
+    doc.text("Cassa di legno", 101, yLine4)//variabile
 
 
     doc.setFont(font, "normal")
@@ -1212,11 +1212,11 @@ function MyForm() {
     doc.setFont(font, "normal")
     doc.text("Tipo seppellimento:", 10, yLine4 = yLine4 + baseLineHeight)//variabiele
     doc.setFont(font, "bold");
-    doc.text("TUMULAZIONE", 45, yLine4)//variabile
+    doc.text("CREMAZIONE", 45, yLine4)//variabile
     doc.setFont(font, "normal")
     doc.text("Tipo di Feretro:", 75, yLine4)//variabile
     doc.setFont(font, "bold");
-    doc.text("Cassa di legno e cassa di zinco", 101, yLine4)//variabile
+    doc.text("Cassa di legno", 101, yLine4)//variabile
 
 
     doc.setFont(font, "normal")
@@ -1439,11 +1439,11 @@ function MyForm() {
     doc.setFont(font, "normal")
     doc.text("Tipo seppellimento:", 10, yLine4 = yLine4 + baseLineHeight)//variabiele
     doc.setFont(font, "bold");
-    doc.text("TUMULAZIONE", 45, yLine4)//variabile
+    doc.text("CREMAZIONE", 45, yLine4)//variabile
     doc.setFont(font, "normal")
     doc.text("Tipo di Feretro:", 75, yLine4)//variabile
     doc.setFont(font, "bold");
-    doc.text("Cassa di legno e cassa di zinco", 101, yLine4)//variabile
+    doc.text("Cassa di legno", 101, yLine4)//variabile
 
 
     doc.setFont(font, "normal")
